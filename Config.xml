@@ -1,0 +1,18 @@
+<Configuration>
+    <Installers>
+		<Python Version="3.8.10" Install="False" Bit="64" />
+        <Java Version="11" Install="True" Bit="64" Jdk="11.0.15" />
+        <Winapp Version= "1.2.1" Install="False" />
+        <ChromeDriver Version="106.0.5249.61" Install="False" Bit="32" />
+        <Winuirecorder Version="1.1" Install="False" Bit="None" />
+        <Pycharm Version="2022.2.3" Install="False" Bit="None" />
+        <Git Version="2.38.1" Install="True" Bit="64" />
+    </Installers>
+    <Libraries>
+        <Package Name="beautifulsoup4" Version="4.9.0" Install="True" />
+        <Package Name="lxml" Version="4.9.0" Install="True" />
+        <Package Name="Appium-Python-Client" Version="1.1.0" Install="True" />
+		<Package Name="Pytest" Version="7.0.0" Install="True" />
+		<Package Name="pyautogui" Version="0.9.53" Install="True" />
+    </Libraries>
+</Configuration>
