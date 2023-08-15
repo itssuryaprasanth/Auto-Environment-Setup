@@ -7,4 +7,4 @@
    $Download_object.Download_Java()
    $Service_object.wait_until_java_service_to_install()
 4. Logs are stored in Downloads\AutoEnv_Installers\Logs
-5. Main executor is AutEnv_Setup.bat. After running this a Validation bat will be created to validate softwares are installed or not.
+5. Main executor is AutoEnv_Setup.bat. After running this a Validation bat will be created to validate softwares are installed or not.
